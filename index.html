@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(20, 19, 19);
+        color: white;
+        font-family: 'poppins', sans-serif;
+    }
+
+    nav {
+        display: flex;
+        position: sticky;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        font-size: 15px;
+        background-color: rgb(51, 2, 2);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 30px;
+
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        color: aqua;
+        font-size: 1.01rem;
+
+    }
+
+    main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+
+    }
+
+    .left {
+        font-size: 1.5rem;
+    }
+
+    .firstSection {
+        display: flex;
+        justify-content: space-around;
+        /* align-items: center; */
+        margin: 10px 0px;
+    }
+
+    .firstSection>div {
+        width: 40%;
+
+    }
+
+    .leftSection {
+        /* background-color: red; */
+        font-size: 2.8rem;
+        margin: 30px 0;
+    }
+
+    .leftSection .button {
+        padding: 50px 0;
+    }
+
+    .leftSection .btn {
+        padding: 4px;
+        width: 80px;
+        margin: 10px;
+        background: rgb(219, 219, 224);
+        color: white;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .rightSection img {
+        justify-content: center;
+        margin: 30px 0;
+        height: 90%;
+        width: 90%;
+    }
+
+    .purple {
+        color: rgb(81, 231, 206);
+    }
+
+    .text-gray {
+        color: gray;
+    }
+
+    #element {
+        color: rgb(81, 231, 206);
+    }
+
+    .secondSection {
+        max-width: 78vw;
+        margin: auto;
+        height: 80vh;
+    }
+
+    .secondSection h1 {
+        font-size: 1.5rem;
+    }
+
+    .secondSection .box {
+        background: rgb(255, 255, 255);
+        width: 72.8vw;
+        height: 2px;
+        margin: 40px 0;
+        display: flex;
+    }
+
+    .secondSection .vertical {
+        justify-content: center;
+        height: 93px;
+        width: 2px;
+        background-color: white;
+        margin: 0 140px;
+    }
+
+    .image-top {
+        width: 40px;
+        position: relative;
+        top: -40px;
+        left: -10px;
+    }
+
+    .vertical-title {
+        position: relative;
+        top: 85px;
+        width: 150px;
+    }
+
+    .vertical-dsc {
+        position: relative;
+        top: 86px;
+        color: grey;
+        width: 215px;
+        font-size: 12px;
+        font-style: bold;
+    }
+
+    footer {
+        background-color: rgb(10, 1, 1);
+    }
+
+    .footer {
+        display: flex;
+        padding: 23px 122px;
+        margin-top: 80px;
+        justify-content: space-evenly;
+    }
+
+    .footer ul {
+        list-style: none;
+    }
+
+    .footer>div {
+        width: 90px;
+    }
+
+    footer .footer-rights {
+        text-align: center;
+        color: gray;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Vijay's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Blogs</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My name is <span class="purple">Vijay</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn"><a href="Vijay's Resume.pdf">Resume</a><br></button>
+                    <button class="btn"><a href="https://github.com/ItzVijayK"><b>Github</b></a></button>
+                    <button class="btn"><a
+                            href="https://www.linkedin.com/in/vijay-maurya-12ab29296/"><b>linkedin</b></a></buttons>
+                        <button class="btn"><a
+                                href="https://www.youtube.com/@TheVijayMaurya"><b>YouTube</b></a></button>
+                        <!--<button class="btn"><a href=""><b>Instagram</b></a></button>-->
+                        <button class="btn"><a href="https://therebelwear.com/"><b>Website</b></a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="Images/img.jfif" alt="">
+            </div>
+        </section>
+        <hr>
+        <!--Second section started from here-->
+        <section class="secondSection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <!--<img class="image-top" src="html.png" alt="">-->
+                    <div class="vertical-title">HR Intern at LernX (Sep 24-Nov-24)</div>
+                    <div class="vertical-dsc">
+                        During my internship at LernX in the HR role, I gained valuable insights into recruitment,
+                        employee engagement, and talent management. I assisted in screening resumes, scheduling
+                        interviews, and supporting the onboarding process. My communication and organizational skills
+                        were enhanced
+                        as I interacted with both candidates and staff, ensuring smooth HR operations. The experience
+                        deepened my understanding of HR best practices and the importance of creating a positive
+                        workplace culture. Overall, the internship was a rewarding learning opportunity, preparing me
+                        for a future career in human resources.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <!--<img class="image-top" src="nodejs.png" alt="">-->
+                    <div class="vertical-title">Founder & CEO at therebelwear.com (2024-Present)</div>
+                    <div class="vertical-dsc">
+                        As the founder of Therebelwear.com, I am dedicated to creating bold, stylish apparel that
+                        empowers individuals to express their unique identities. With a passion for fashion and
+                        innovation, I lead the brand in delivering high-quality, trendsetting clothing that resonates
+                        with those who dare to stand out.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <!--<img class="image-top" src="instagram.png" alt="">-->
+                    <div class="vertical-title">Web Developer at CodeAlpha Intern (Nov 24- Dec 24)</div>
+                    <div class="vertical-dsc">
+                        As a web developer intern at Codealpha, I gained hands-on experience in building and maintaining
+                        websites. I contributed to front-end and back-end development, enhancing my skills in HTML, CSS,
+                        JavaScript, and various frameworks. I collaborated with senior developers to ensure seamless
+                        user experiences and optimized site performance. This internship allowed me to deepen my
+                        technical expertise, improve my problem-solving abilities, and gain insight into the development
+                        lifecycle, preparing me for future challenges in the web development field.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <!--<img class="image-top" src="facebook.png" alt="">-->
+                    <div class="vertical-title">Digital Marketer (2018-Present)</div>
+                    <div class="vertical-dsc">
+                        As a digital marketer, I combine expertise in content writing, video marketing, and web
+                        development to create engaging, results-driven strategies. My passion for storytelling and
+                        creating seamless user experiences allows me to drive brand growth and enhance online presence.
+                        With a focus on staying ahead of digital trends, I continuously refine my approach to deliver
+                        impactful results. Whether crafting compelling content or optimizing websites, I am dedicated to
+                        helping brands thrive in today’s competitive digital landscape.
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Vijay's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="https://www.instagram.com/thevijaymaurya9/"><b>Instagram</b></a></li>
+                    <li><a href="https://www.linkedin.com/in/vijay-maurya-12ab29296/"><b>linkedin</b></a></li>
+                    <li><a
+                            href="https://www.facebook.com/profile.php?id=61557077361916&mibextid=LQQJ4d"><b>Facebook</b></a>
+                    </li>
+                    <li><a href="https://github.com/ItzVijayK"><b>Github</b></a></li>
+                    <li><a href="https://www.youtube.com/@TheVijayMaurya"><b>YouTube</b></a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Contact</li>
+                    <li>E-mail:</li>
+                    <li>vijay@therebelwear.com</li>
+                    <div>
+                        <li> <i class="fas fa-envelope"></i> 7048984540</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright&#169; vijaymaurya.com | All right reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Freelancer', 'Video Editor', 'Digital Marketer', 'Aspiring Entreprenure'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
